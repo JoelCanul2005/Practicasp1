@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title>
+</head>
+<body>
+
+    <div class="perfume">
+        <img src="img/img1.png" alt="Eau Du Soir">
+        <p>Eau Du Soir<br> SISLEY<br> 100ml - 13,890</p>
+    </div>
+
+    <div class="perfume">
+        <img src="img/img2.png" alt="Love In Black">
+        <p>Love In Black<br> CREED<br> 75ml - 11,620</p>
+    </div>
+
+    <div class="perfume">
+        <img src="img/img3.png" alt="Coeur de Fleur">
+        <p>Coeur de Fleur<br> MILLER HARRIS<br> EDP 100ml - 9,300</p>
+    </div>
+
+    <div class="perfume">
+        <img src="img/img4.png" alt="Fleur Oriental">
+        <p>Fleur Oriental<br> MILLER HARRIS<br> EDP 100ml - 9,300</p>
+    </div>
+
+    <div class="perfume">
+        <img src="img/img5.png" alt="Geranium Bourbon">
+        <p>Geranium Bourbon<br> MILLER HARRIS<br> 100ml - 8,520</p>
+    </div>
+
+    <div class="perfume">
+        <img src="img/img6.png" alt="Osmanthus">
+        <p>Osmanthus<br> FRAPIN & CIE<br> 120ml - 7,400</p>
+    </div>
+
+    <div class="perfume">
+        <img src="img/img7.png" alt="Frangipani">
+        <p>Frangipani<br> FRAPIN & CIE<br> 120ml - 7,400</p>
+    </div>
+
+    <div class="perfume">
+        <img src="img/img8.png" alt="Sampaguita">
+        <p>Sampaguita<br> FRAPIN & CIE<br> 120ml - 7,400</p>
+    </div>
+
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .perfume {
+            text-align: center;
+            width: 150px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .perfume img {
+            max-width: 100%;
+            height: 200px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .perfume p {
+            margin: 10px 0 0 0;
+            font-size: 14px;
+        }
+        .perfume:hover {
+            transform: scale(1.05);
+        }
+        .perfume img:hover {
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+
+</body>
+</html>

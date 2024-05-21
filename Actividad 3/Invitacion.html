@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Invitacion</title>
+    <body>
+      <div class="contenedor">
+        <h1>Invitacion a Evento UTM</h1>
+        <h2>Hora: 10:00 A.M</h2>
+        <h2>Fecha: 20 Mayo de 2024</h2>
+        <h2>Direccion: Universidad Tecnologica Metropolitana</h2>
+        <h2>Llene los siguientes datos para su registro</h2>
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29810.08912147646!2d-89.61573805!3d20.9420256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5672270a784baf%3A0x764b40010695f0d9!2sUniversidad%20Tecnol%C3%B3gica%20Metropolitana!5e0!3m2!1ses-419!2smx!4v1716256763139!5m2!1ses-419!2smx" width="40%" height="250px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <h2>Nombre completo</h2>  
+      <input type="text">
+      <h2>Numero de telefono</h2>
+      <input type="text">
+      <h2>Correo Electronico</h2>
+      <input type="text">
+      <br>
+      <br>
+      <button onclick="mensaje()">Enviar</button>
+      <br>
+      <h2></h2>
+    </div>
+    </body>
+  </head>
+  <style>
+    input{
+      border-radius: 25px;
+      background-color: rgb(118, 171, 118);
+      color: black;
+      height: 30px;
+      width: 20%;
+      font-family: Arial;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    input:hover{
+      background-color: rgb(43, 169, 43);
+      border-color: rgb(60, 0, 255);
+    }
+    button{
+      border-radius: 25px;
+      background-color: green;
+      height: 30px;
+      width: 10%;
+      color: white;
+    }
+    button:hover{
+      background-color: rgb(84, 188, 84);
+      color: black;
+    }
+
+    body{
+      background-image: url(utm.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    h1{
+      font-family: arial;
+      font-weight: bold;
+      font-size: 50px;
+    }
+
+    h2{
+      font-family: arial;
+      font-weight: bold;
+      font-size: 20px;
+      color: rgb(0, 0, 0);
+    }
+    .contenedor{
+      border-radius: 25px;
+      background-color: rgb(100, 100, 100);
+      margin: 5%;
+      width: 90%;
+      height: 800%;
+      opacity: 80%;
+      text-align: center
+      ;
+    }
+  </style>
+  <script>
+    function mensaje(){
+      alert("Registro Enviado");
+    }
+  </script>
+</html>

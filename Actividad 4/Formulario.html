@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario</title>
+        <body>
+            <form>
+                <div class="form-group">
+                <h2>Apellido</h2>
+                <input type="text" value="Apellido (Como se muestra en su pasaporte)">
+            </div>
+            <div class="form-group">
+                <h2>Nombre</h2>
+                <input type="text" value="Solo nombre">
+            </div>
+                <div class="form-group">
+                <h2>Fecha de Nacimiento</h2>
+                <input type="date">
+            </div>
+                <div class="form-group">
+                <h2>Cuidad de Nacimiento</h2>
+                <input type="text" name="" id="" value="cuidad de nacimiento">
+            </div>
+                <div class="form-group">
+                <h2>Pais de Nacimiento</h2>
+                <select id="paisNacimiento" name="paisNacimiento" >
+                    <option value="">Selecciona un país</option>
+                    <option value="Mexico">México</option>
+                    <option value="España">España</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Colombia">Colombia</option>
+                </select><br><br>
+            </div>
+                <div class="form-group">
+                <h2>Nacionalidad</h2>
+                <select id="nacionalidad" name="Nacionalidad">
+                    <option value="">Selecciona una Nacionalidad</option>
+                    <option value="Mexico">México</option>
+                    <option value="España">España</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Colombia">Colombia</option>
+                </select><br><br>
+            </div>
+                <div class="form-group">
+                <h2>Numero de pasaporte</h2>
+                <input type="number" name="" id="" value="numero de pasaporte">
+            </div>
+                <div class="form-group">
+                <h2>Pais donde ha sido enviado su pasaporte</h2>
+                <select id="pasaporte" name="pasaporte">
+                    <option value="">Selecciona un pais</option>
+                    <option value="Mexico">México</option>
+                    <option value="España">España</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Colombia">Colombia</option>
+                    </select><br><br>
+                </div>
+                    <div class="form-group">
+                <h2>Fecha de emision de su pasaporte</h2>
+                <input type="date" name="" id="">
+            </div>
+                <div class="form-group">
+                <h2>Fecha de vencimiento de su pasaporte</h2>
+                <input type="date">
+            </div>
+                </select><br><br>
+            </form>
+        </body>
+    </head>
+    <style>
+        h2 {
+            font-family: arial;
+            font-size: 15px;
+
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        form {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+        }
+        .form-group {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .form-group h2 {
+            margin: 0;
+        }
+        .form-group input[type="text"], 
+        .form-group input[type="date"], 
+        .form-group input[type="number"], 
+        .form-group select {
+            width: 70%;
+            padding: 10px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+        input[type="text"] {
+            background-color: #dbdbdb;
+            color: black;
+            padding: 14px 20px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 20%;
+            margin-right: 10px;
+        }
+        input[type="text"]:hover {
+            background-color: #afb2af;
+        }
+
+        input[type="date"] {
+            background-color: #dbdbdb;
+            color: black;
+            padding: 14px 20px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 20%;
+            margin-right: 10px;
+        }
+        input[type="date"]:hover {
+            background-color: #afb2af;
+        }
+
+        input[type="number"] {
+            background-color: #dbdbdb;
+            color: black;
+            padding: 14px 20px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 20%;
+            margin-right: 10px;
+        }
+        input[type="numer"]:hover {
+            background-color: #afb2af;
+        }
+
+        select{
+            background-color: #dbdbdb;
+            color: black;
+            padding: 14px 20px;
+            margin-left: 170px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 20%;
+
+        }
+
+        select:hover{
+            background-color: #afb2af;
+        }
+    </style>
+</html>
